@@ -13,10 +13,18 @@ body{
     font-size: 14px;
     font-weight: 300;
 }
+/* featured section styles */
+.grayscle{
+    filter: grayscale(1);
+}
+
+/* client section styles */
 .clients-img {
     max-width: 50%;
     height: auto;
 }
+
+/* faq section styles */
 .faq-image{
     width: 70%;
     height: auto;
