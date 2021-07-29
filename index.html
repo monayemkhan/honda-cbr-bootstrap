@@ -7,21 +7,207 @@
     <title>Honda CBR</title>
     <!-- bootstrap stylesheet css link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/b5711b5345.js" crossorigin="anonymous"></script>
     <!-- css stylesheet  -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- header section start here -->
     <header>
-        <section class="container">
-            <div class="row row-cols-2">
-                <div class="col">Column</div>
-                <div class="col">Column</div>
+        <!-- top banner -->
+        <section class="container-fluid banner">
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 p-5 align-items-center">
+                <div class="col">
+                    <p class="fs-.25 text-white-50">Honda is a brand that consistently creates some awesome rides.</p>
+                    <h1 class="text-light">Honda CBR 300R</h1>
+                    <p class="fs-.25 text-white-50">Honda celebrates the 40th anniversary of their Gold Wing with a new release, and it quickly becomes a national favorite among the tour sector.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Purchase
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">ENTER YOUR VIN TO GET YOUR OFFER</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            Vehicle Identification Number
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn btn-primary">Get You Offer</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col my-5">
+                    <img src="images/header-bike.png" class="img-fluid" alt="...">
+                </div>
               </div>
         </section>
 
     </header>
-    <menu></menu>
+    <main>
+        <!-- Fetured Bikes section -->
+        <section class="container">
+            <div class="fetured-header my-5">
+                <h1 class="text-center text-dark fw-bold">Fetured Bikes 2021</h1>
+                <p class="text-center text-danger">Best bike collection</p>
+            </div>
+            <div class="fetured-bike my-5">
+                <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3">
+                    <div class="bike-image">
+                        <img class="img-fluid p-3 my-3" src="images/feature-bike.jpg" alt="">
+                    </div>
+                    <div class="bike-image">
+                        <img class="img-fluid p-3 my-3" src="images/feature-bike.jpg" alt="">
+                    </div>
+                    <div class="bike-image">
+                        <img class="img-fluid p-3 my-3" src="images/feature-bike.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- clients section strat here -->
+        <section class="container my-5">
+            <h1 class="text-center text-dark fw-bold my-5">Happy <span class="text-warning">Clients Says</span></h1>
+            <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3 g-2.5">
+                <div class="col my-3">
+                  <div class="card h-100">
+                    <img src="images/user-1.png" class="card-img-top rounded-circle mx-auto my-5 d-block clients-img" alt="...">
+                    <div class="card-body">
+                      <p class="card-text text-center text-black-50 p-3">Slate helps you see how 
+                        many more days you need 
+                        to work to reach your financial 
+                        goal for the month and year.</p>
+                        <div class="client-stars text-center fs-5">
+                            <a href="#" class="text-warning"><i class="fas fa-star"></i></a>
+                            <a href="#" class="text-warning"><i class="fas fa-star"></i></a>
+                            <a href="#" class="text-warning"><i class="fas fa-star"></i></a>
+                            <a href="#" class="text-warning"><i class="fas fa-star"></i></a>
+                            <a href="#" class="text-warning"><i class="far fa-star"></i></i></a>
+                        </div>
+                        <div class="client-into text-center">
+                            <p class="text-primary fs-5 fw-bold my-3">Regina Miles</p>
+                            <p class="text-dark fs-5 fw-bold">Banker</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col my-3">
+                  <div class="card h-100">
+                    <img src="images/user-2.png" class="card-img-top rounded-circle mx-auto my-5 d-block clients-img" alt="...">
+                    <div class="card-body">
+                      <p class="card-text text-center text-black-50 p-3">Slate helps you see how 
+                        many more days you need 
+                        to work to reach your financial 
+                        goal for the month and year.</p>
+                        <div class="client-stars text-center fs-5">
+                            <a href="#" class="text-warning"><i class="fas fa-star"></i></a>
+                            <a href="#" class="text-warning"><i class="fas fa-star"></i></a>
+                            <a href="#" class="text-warning"><i class="fas fa-star"></i></a>
+                            <a href="#" class="text-warning"><i class="fas fa-star"></i></a>
+                            <a href="#" class="text-warning"><i class="far fa-star"></i></i></a>
+                        </div>
+                        <div class="client-into text-center">
+                            <p class="text-primary fs-5 fw-bold my-3">Regina Miles</p>
+                            <p class="text-dark fs-5 fw-bold">Banker</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col my-3">
+                  <div class="card h-100">
+                    <img src="images/user-3.jpg" class="card-img-top rounded-circle mx-auto my-5 d-block clients-img border border-1" alt="...">
+                    <div class="card-body">
+                      <p class="card-text text-center text-black-50 p-3">Slate helps you see how 
+                        many more days you need 
+                        to work to reach your financial 
+                        goal for the month and year.</p>
+                        <div class="client-stars text-center fs-5">
+                            <a href="#" class="text-warning"><i class="fas fa-star"></i></a>
+                            <a href="#" class="text-warning"><i class="fas fa-star"></i></a>
+                            <a href="#" class="text-warning"><i class="fas fa-star"></i></a>
+                            <a href="#" class="text-warning"><i class="fas fa-star"></i></a>
+                            <a href="#" class="text-warning"><i class="far fa-star"></i></i></a>
+                        </div>
+                        <div class="client-into text-center">
+                            <p class="text-primary fs-5 fw-bold my-3">Regina Miles</p>
+                            <p class="text-dark fs-5 fw-bold">Banker</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+        <!-- FAQ section start here -->
+        <section class="container my-5">
+            <h1 class="text-center text-dark fw-bold my-5">Frequently Asked <span class="text-danger"> Questions</span> </h1>
+            <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2">
+                <div class="col d-flex justify-content-center my-5">
+                    <img class="faq-image img-fluid" src="images/faq.png" alt="">
+                </div>
+                <div class="col my-5">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Accordion Item #1
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Accordion Item #2
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Accordion Item #3
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Accordion Item #4
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer></footer>
     
     <!-- bootstrap stylesheet js link -->
